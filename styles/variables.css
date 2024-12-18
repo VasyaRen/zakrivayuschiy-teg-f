@@ -5,8 +5,8 @@
     linear-gradient(to bottom, #e7e7e7, #1a1a1a);
   --font-main: "Inter";
   --font-accent: "Press Start 2P";
-  --title-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  --subtitle-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+  --logo-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --text-article-weight: 400;
   --title-article-weight: 700;
   --main-color: #000;
@@ -17,6 +17,6 @@
 
 @media (width <=375px) {
   :root {
-    --title-font-size: clamp(18px, 13.067vw, 49px);
+    --logo-font-size: clamp(18px, 13.067vw, 49px);
   }
 }
